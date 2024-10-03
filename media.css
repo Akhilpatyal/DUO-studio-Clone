@@ -1,0 +1,155 @@
+/* Media query for tablets and small devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    #nav {
+        height: 50px;
+        padding: 0 20px;
+    }
+
+    #nav h4 {
+        font-size: 12px;
+    }
+
+    .page1 h1, .page1 h2 {
+        font-size: 6vw;
+        margin-left: 4vw;
+    }
+
+    .page1 h2 {
+        margin-left: 20vw;
+    }
+
+    .page1 video {
+        width: 80%;
+        margin-top: 3vw;
+    }
+
+    .page2 h1 {
+        font-size: 6vw;
+    }
+
+    .page2-left h2 {
+        font-size: 3.5vw;
+        line-height: 3.8vw;
+    }
+
+    .page2-right p {
+        font-size: 24px;
+    }
+
+    .page2-right button {
+        padding: 6px 0;
+    }
+
+    .page3 h1 {
+        font-size: 5.5vw;
+        margin-left: 50px;
+    }
+
+    .page3-part1 img, .page3-part1 video, 
+    .page3-part2 img, .page3-part2 video {
+        height: 300px;
+        margin: 20px 0;
+    }
+
+    .elem h1 {
+        font-size: 6vw;
+    }
+
+    .page5 h2 {
+        font-size: 3.5vw;
+    }
+
+    .box {
+        height: 80px;
+    }
+
+    .footer .left {
+        font-size: 4rem;
+    }
+
+    .footer .right {
+        margin: 100px;
+    }
+
+    .last h2 {
+        font-size: 20px;
+    }
+}
+
+/* Media query for mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    #nav {
+        height: 45px;
+        padding: 0 15px;
+    }
+
+    #nav h4 {
+        font-size: 10px;
+    }
+
+    .page1 h1, .page1 h2 {
+        font-size: 5vw;
+        margin-left: 3vw;
+    }
+
+    .page1 h2 {
+        margin-left: 15vw;
+    }
+
+    .page1 video {
+        width: 95%;
+        margin-top: 2vw;
+    }
+
+    .page2 h1 {
+        font-size: 5vw;
+    }
+
+    .page2-left h2 {
+        font-size: 3vw;
+        line-height: 3.2vw;
+    }
+
+    .page2-right p {
+        font-size: 20px;
+    }
+
+    .page2-right button {
+        padding: 5px 0;
+    }
+
+    .page3 h1 {
+        font-size: 5vw;
+        margin-left: 30px;
+    }
+
+    .page3-part1 img, .page3-part1 video, 
+    .page3-part2 img, .page3-part2 video {
+        height: 250px;
+        margin: 15px 0;
+    }
+
+    .elem h1 {
+        font-size: 5vw;
+    }
+
+    .page5 h2 {
+        font-size: 3vw;
+    }
+
+    .box {
+        height: 70px;
+    }
+
+    .footer .left {
+        font-size: 3.5rem;
+    }
+
+    .footer .right {
+        margin: 80px;
+    }
+
+    .last h2 {
+        font-size: 18px;
+    }
+}
